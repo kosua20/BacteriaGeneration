@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\helpers">
+      <UniqueIdentifier>{318262b6-adc0-4baa-a274-6c4d318820b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\camera">
+      <UniqueIdentifier>{3029502e-777a-4a25-96a9-23b2bce3e715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\screens">
+      <UniqueIdentifier>{dddd6d62-48e0-4931-9def-b9020685165e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs">
+      <UniqueIdentifier>{022dfdaf-a21f-4749-8160-eb46aa1fca27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\gl3w">
+      <UniqueIdentifier>{3a188a85-59e0-4bd6-a559-e3030e24b4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\glm">
+      <UniqueIdentifier>{afcfafd5-2d3d-475b-9b07-54d6d546c654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\stb_image">
+      <UniqueIdentifier>{20ca2e9c-8594-4b3c-800a-e13460f8f962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\tinydir">
+      <UniqueIdentifier>{cfe063bb-5d3b-4fae-9b5e-d4047e1041cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libs\tinyexr">
+      <UniqueIdentifier>{ddb0355c-e5ad-41d6-bea8-9d2939da56ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\screens\blur-combine">
+      <UniqueIdentifier>{2044fbdc-33a8-4f62-94b1-28c1faaaf4e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Framebuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ScreenQuad.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\MeshUtilities.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera\Camera.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera\Keyboard.cpp">
+      <Filter>Source Files\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bacterium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\GLUtilities.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\ProgramInfos.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\ResourcesManager.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\helpers\GenerationUtilities.cpp">
+      <Filter>Source Files\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\libs\gl3w\gl3w.cpp">
+      <Filter>Source Files\libs\gl3w</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Blur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BacteriaScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\helpers\GenerationUtilities.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\GLUtilities.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\MeshUtilities.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\ProgramInfos.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\helpers\ResourcesManager.h">
+      <Filter>Source Files\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera\Camera.h">
+      <Filter>Source Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera\Keyboard.h">
+      <Filter>Source Files\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Framebuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bacterium.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Renderer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScreenQuad.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\gl3w\gl3w.h">
+      <Filter>Source Files\libs\gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\gl3w\glcorearb.h">
+      <Filter>Source Files\libs\gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\stb_image\stb_image.h">
+      <Filter>Source Files\libs\stb_image</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\tinydir\tinydir.h">
+      <Filter>Source Files\libs\tinydir</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\glm\glm.hpp">
+      <Filter>Source Files\libs\glm</Filter>
+    </ClInclude>
+    <ClInclude Include="src\libs\tinyexr\tinyexr.h">
+      <Filter>Source Files\libs\tinyexr</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Blur.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BacteriaScene.h">
+      <Filter>Source Files\scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\shaders\screens\final.frag">
+      <Filter>Resource Files\screens</Filter>
+    </None>
+    <None Include="resources\shaders\screens\postprocess.frag">
+      <Filter>Resource Files\screens</Filter>
+    </None>
+    <None Include="resources\shaders\screens\blur.frag">
+      <Filter>Resource Files\screens</Filter>
+    </None>
+    <None Include="resources\shaders\screens\passthrough.frag">
+      <Filter>Resource Files\screens</Filter>
+    </None>
+    <None Include="resources\shaders\screens\passthrough.vert">
+      <Filter>Resource Files\screens</Filter>
+    </None>
+    <None Include="resources\shaders\bacterium.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\shaders\bacterium.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\shaders\screens\blur-combine\blur-combine-3.frag">
+      <Filter>Resource Files\screens\blur-combine</Filter>
+    </None>
+    <None Include="resources\shaders\screens\blur-combine\blur-combine-4.frag">
+      <Filter>Resource Files\screens\blur-combine</Filter>
+    </None>
+    <None Include="resources\shaders\screens\blur-combine\blur-combine-5.frag">
+      <Filter>Resource Files\screens\blur-combine</Filter>
+    </None>
+    <None Include="resources\shaders\screens\blur-combine\blur-combine-6.frag">
+      <Filter>Resource Files\screens\blur-combine</Filter>
+    </None>
+    <None Include="resources\shaders\screens\blur-combine\blur-combine-2.frag">
+      <Filter>Resource Files\screens\blur-combine</Filter>
+    </None>
+  </ItemGroup>
+</Project>
